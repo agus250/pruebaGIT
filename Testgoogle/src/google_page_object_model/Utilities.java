@@ -17,6 +17,7 @@ public class Utilities {
 
 	public WebDriver Chromedriver() {	
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+		//		System.setProperty("webdriver.chrome.driver", "./src/test/resources/driverV1/chromedriver.exe");
 		driver = new ChromeDriver();
 		return driver;
 	}
